@@ -38,3 +38,11 @@ $\therefore \frac{X_{n+1}-\overline{X}}{S}\sqrt{\frac{n}{n+1}}=\sqrt{\frac{n}{n+
 $\because S_1^2= \frac1{n_1-1}\sum_{i=1}^{n_1}X_i^2-\frac{n_1}{n_1-1}\overline{X}^2,~~~~\therefore \sum_{i=1}^{n_1}X_i^2=(n_1-1)S_1^2+n_1\overline{X}^2$   
 $S^2 = \frac1{n_1+n_2-1}(\sum_{i=1}^{n_1}X_i^2+\sum_{i=1}^{n_2}Y_i^2)-\frac{n_1+n_2}{n_1+n_2-1}\overline{Z}^2$   
 $=\frac{(n_1-1)S_1^2+n_1\overline{X}^2+(n_2-1)S_2^2+n_2\overline{Y}^2}{n_1+n_2-1}-\frac{n_1+n_2}{n_1+n_2-1}(\frac{n_1\overline{X}+n_2\overline{Y}}{n_1+n_2})^2$
+
+#### 第二题
+
+$E((X_1+X_2)(X_1-X_2))=E(X_1^2-X_2^2)=EX_1^2-EX_2^2$   
+$=(EX_1-EX_2)(EX_1+EX_2)=E(X_1+X_2)E(X_1-X_2)$   
+故$(X_1+X_2)^2,(X_1-X_2)^2$独立。   
+$\because X_1+X_2$~$N(0,2\sigma^2),\therefore \frac{(X_1+X_2)^2}{2\sigma^2}$~$\chi(1)$,同理$\frac{(X_1-X_2)^2}{2\sigma^2}$~$\chi(1)$   
+故$\frac{(X_1+X_2)^2}{(X_1-X_2)^2}$~$\frac{\chi(1)}{\chi(1)}$~$F(1,1)$
